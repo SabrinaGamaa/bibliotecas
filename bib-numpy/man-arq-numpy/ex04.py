@@ -3,3 +3,4 @@ import numpy as np
 l1 = np.arange(1, 9).reshape(2, 2, 2)
 print(l1)
 
+print(np.linalg.det(l1))
