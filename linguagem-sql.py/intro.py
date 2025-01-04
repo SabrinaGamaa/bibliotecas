@@ -32,3 +32,5 @@ df = pd.read_sql_query('SELECT * FROM tb_vendas_dsa', con)
 print('Dados em formado DATAFRAME:')
 print(df.head(5))
 
+cursor.close()
+con.close()
