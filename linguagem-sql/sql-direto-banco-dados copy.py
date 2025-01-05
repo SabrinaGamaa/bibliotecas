@@ -1,7 +1,7 @@
 import sqlite3
 import pandas as pd
 
-con = sqlite3.connect('C:/Users/Sabrina Gama/Downloads/python/bibliotecas/linguagem-sql.py/estudos/cap12_dsa.db')
+con = sqlite3.connect('C:/Users/Sabrina Gama/Downloads/python/bibliotecas/linguagem-sql/estudos/cap12_dsa.db')
 cursor = con.cursor()
 
 # Listar todas as tabelas no banco de dados
